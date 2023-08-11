@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 10</title>
+    <style>
+fieldset{
+    border: 2px dotted tomato;
+    border-radius: 20px;
+    background-color: rgba(255, 99, 71, 0.233);
+    /* text-align: right; */
+}
+legend{
+    background-color: rgba(255, 99, 71, 0.378);
+    border-radius: 5px;
+    /* text-align: center; */
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+label{
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+}
+button{
+    margin-left: 250px;
+    background-color: rgba(255, 99, 71, 0.451);
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5PX 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: tomato;
+}
+
+#main{
+    margin: auto;
+    width: 350px;
+}
+input{
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: tomato;
+    font-size: medium;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+    /* border-bottom: 5px solid tomato; */
+}
+::-webkit-input-placeholder{
+    color: rgba(255, 99, 71, 0.699);
+}
+input[type=email]{
+            background-image: url(./email\ icon.jpg);
+            background-size: 30px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: lowercase;
+        }
+        input[type=password]{
+            background-image: url(./password\ icon.jpg);
+            background-size: 30px;
+            background-repeat: no-repeat;
+            padding-left: 35px;
+            text-transform: lowercase;
+        }
+h1{
+    text-decoration: underline tomato;
+color: rgba(255, 99, 71, 0.384);
+cursor: pointer;
+}
+h1:hover{
+     color: tomato;
+     text-decoration:underline rgba(255, 99, 71, 0.384);
+cursor: pointer;
+}
+.marquee{
+    animation: blinker 1.5s linear infinite;
+    color: rgb(4, 102, 69);
+    font-family: sans-serif;
+    transition: all;
+    font-size: xx-large;
+}
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+    .blink {
+                animation: blinker 1.0s linear infinite;
+                color: rgba(0, 17, 255, 0.815);
+                font-family: sans-serif;
+                /* text-align: center; */
+                margin: 5% 5%;
+                font-size: medium;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="buttons">  
+            <button class="work" id="work1"><a href="./index.html">Class Work</a></button>
+            <button class="work" id="work2"><a href="./class10.html">Class Work</a></button>
+            <button class="work" id="work21"><a href="./class10.1.html">Class Work</a></button>
+            <button class="work" id="work31"><a href="./class11.html">Class Work</a></button>
+            <button class="work" id="work3"><a href="./class11.1.html">Class Work</a></button>
+            <button class="work" id="work4"><a href="./class11.2.html">Class Work</a></button>
+            <button class="work" id="work5"><a href="./class11.3.html">Assignment</a></button> 
+            <button class="work" id="work6"><a href="./class11.4.html">Assignment</a></button>
+            <button class="work" id="work7"><a href="./class11.5.html">Assignment</a></button> 
+            <button class="work" id="work8"><a href="./class11.6.html">Assignment</a></button>
+            <button class="work" id="work9"><a href="./12.1.html">Class Work</a></button>
+             </div>
+    </header>
+    <DIV id="main">
+        <h1>LOGIN PAGE</h1>
+        <div id="form">
+            
+            <fieldset>
+                <legend>LOGIN DETAILS</legend>
+                <label for="">Email:</label>
+                <input type="email" placeholder="sir.qurashi@gmail.com"><br>
+                <label for="">Password:</label>
+                <input type="password" placeholder="password">
+                <p class="blink">YASIR RASHEED CCO - 118488</p>
+                <button>LOGIN</button>
+            </div>
+        </DIV>
+    </fieldset>
+    <marquee class="marquee">YASIR RASHEED QURESHI WEB AND AAP CCO - 118488 TEACHER SIR RIZWAN BHATTI.</marquee>
+</body>
+</html>

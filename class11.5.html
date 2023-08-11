@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .marquee{
+    animation: blinker 1.5s linear infinite;
+    color: rgb(4, 102, 69);
+    font-family: sans-serif;
+    transition: all;
+    font-size: xx-large;
+}
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+    .blink {
+                animation: blinker 1.0s linear infinite;
+                color: WHITE;
+                font-family: sans-serif;
+                text-align: center;
+                margin: 2% 2%;
+                font-size: xx-large;
+              ;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+            body{
+                background-color: rgba(101, 183, 204, 0.507);
+            }
+            #box1{
+            width: 100%;
+            height: 60px;
+            /* border: 1px solid black; */
+            box-sizing: border-box;
+            background-color: rgb(89, 190, 165);
+            }
+           #left{
+                width: 20%;
+                height: 800px;
+                /* border: 1px solid black; */
+                box-sizing: border-box;
+                float: left;
+                background-color: green;
+                margin-top: 10px;
+                }
+                       #center{
+                width: 79.1%;
+                height: 800px;
+                /* border: 1px solid black; */
+                float: left;
+               background-color: rgb(255, 153, 0);
+               box-sizing: border-box;
+                margin-top: 10px;
+                margin-left: 10px;
+                }
+            #top{
+                width: 100%;
+                height: 200px;
+                /* border: 1px solid black; */
+                color: white;                
+                }
+                #mid1{
+                width: 300px;
+                height: 300px;
+                /* border: 1px solid black; */
+                float: left;
+                box-sizing: border-box;
+                color: white;
+                margin-bottom: 10px;
+                margin-left: 35px;
+                background-color: rgb(255, 196, 0);   
+                }
+                img{
+                    width: 280px;
+                height: 280px;
+                padding-left: 9px;
+                padding-top: 10px;
+                }
+                #mid2{
+                width: 300px;
+                height: 300px;
+                /* border: 1px solid black; */
+                float: left;
+                box-sizing: border-box;
+                color: white;
+                margin-bottom: 10px;
+                margin-left: 35px;
+                background-color: rgb(255, 196, 0);               
+                }
+                #bottom{
+                    width: 300px;
+                height: 300px;
+                /* border: 1px solid black; */
+                float: left;
+                box-sizing: border-box;
+                color: white;
+                margin-bottom: 10px;
+                margin-left: 35px;
+                background-color: rgb(255, 196, 0);                
+                }
+                #box2{
+            width: 100%;
+            height: 60px;
+            /* border: 1px solid black; */
+            box-sizing: border-box;
+            background-color: rgb(89, 190, 165);
+            clear: both;
+            margin-top: 825PX;
+            }
+                #aside{
+                text-align: center;
+                color: white;
+                padding-top: 400px;
+                font-size: xx-large;
+                text-decoration: underline;
+                }
+                #header{
+                text-align: center;
+                color: white;
+                padding-top: 10px;
+                font-size: xx-large;
+                text-decoration: underline;
+                }
+                #article{
+                text-align: center;
+                color: white;
+                padding-top: 278px;
+                font-size: xx-large;
+                text-decoration: underline;
+                }
+                #i1{
+                text-align: center;
+                color: white;
+                padding-top: 10px;
+                font-size: xx-large;
+                text-decoration: underline;
+                }
+                #footer{
+                text-align: center;
+                color: white;
+               padding-top: 8px;
+                font-size: xx-large;
+                text-decoration: underline;
+                }
+
+    </style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <marquee class="marquee">YASIR RASHEED QURESHI WEB AND AAP CCO - 118488 TEACHER SIR RIZWAN BHATTI.</marquee>
+    <div class="buttons">  
+        <button class="work" id="work1"><a href="./index.html">Class Work</a></button>
+        <button class="work" id="work2"><a href="./class10.html">Class Work</a></button>
+        <button class="work" id="work21"><a href="./class10.1.html">Class Work</a></button>
+        <button class="work" id="work31"><a href="./class11.html">Class Work</a></button>
+        <button class="work" id="work3"><a href="./class11.1.html">Class Work</a></button>
+        <button class="work" id="work4"><a href="./class11.2.html">Class Work</a></button>
+        <button class="work" id="work5"><a href="./class11.3.html">Assignment</a></button> 
+        <button class="work" id="work6"><a href="./class11.4.html">Assignment</a></button>
+        <button class="work" id="work7"><a href="./class11.5.html">Assignment</a></button> 
+        <button class="work" id="work8"><a href="./class11.6.html">Assignment</a></button>
+        <button class="work" id="work9"><a href="./12.1.html">Class Work</a></button>
+         </div>
+    
+    <div id="main">
+    <div id="box1"><p id="header">HEADER </p></div>
+    <div id="left"><p id="aside">ASIDE</p></div>
+
+    <div id="center"><p class="blink">YASIR RASHEED CCO - 118488</p><br> <p id="article">ARTICLE</p>
+        <!-- <div id="top"> -->
+            <div id="mid1"><img src="./1.JPG"></div>
+            <div id="mid2"><img src="./2.JPG"></div>
+            <div id="bottom"><img src="./3.JPG"></div>
+        <!-- </div> -->
+    </div>
+    <div id="box2"><p id="footer">FOOTER</p></div>
+</div>
+
+
+
+</body>
+</html>

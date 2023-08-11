@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .marquee{
+    animation: blinker 1.5s linear infinite;
+    color: rgb(4, 102, 69);
+    font-family: sans-serif;
+    transition: all;
+    font-size: xx-large;
+}
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+    .blink {
+                animation: blinker 1.0s linear infinite;
+                color: WHITE;
+                font-family: sans-serif;
+                text-align: center;
+                margin: -2% -2%;
+                font-size: xx-large;
+              ;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+            #main{
+                border: 2px solid black;
+            }
+         #box1{
+            width: 100%;
+            height: 60px;
+            /* border: 1px solid black; */
+            box-sizing: border-box;
+            background-color: rgb(0, 153, 255);
+            color: WHITE;
+            font-size: xx-large;
+            text-align: center;
+           }
+           #left{
+                width: 20%;
+                height: 700px;
+                /* border: 1px solid black; */
+                float: left;
+                color: green;
+                       }
+      #center{
+                width: 59.5%;
+                height: 700px;
+                /* border: 1px solid black; */
+                float: left;
+                color: green;
+                                
+            }
+            #top{
+                width: 70%;
+                height: 350px;
+                /* border: 1px solid black; */
+                color: white;
+                float: left;
+                margin-top: 2px;
+                font-size: xx-large;
+                background-color: rgb(8, 224, 8);
+                text-align: center;
+                                
+                }
+                #mid1{
+                width: 29.6%;
+                height: 351.3px;
+                /* border: 1px solid black; */
+                float: left;
+                box-sizing: border-box;
+                text-align: center;
+                color: white;
+                font-size: xx-large;
+                margin-top: 2px;
+                margin-left: 2px;
+                background-color: blueviolet;
+                }            
+                #center1{
+                width: 100%;
+                height: 700px;
+                /* border: 1px solid black; */
+                float: left;
+                color: green;
+                                
+            }
+                #twin1{
+                    width: 39.6%;
+                height: 351.3px;
+                /* border: 1px solid black; */
+                float: left;
+                box-sizing: border-box;
+                text-align: center;
+                color: white;
+                font-size: xx-large;
+                margin-top: 2px;
+                
+                background-color: rgb(245, 92, 4);
+                }
+                #twin2{
+                    width: 59.8%;
+                height: 351px;
+                /* border: 1px solid black; */
+                color: white;
+                float: left;
+                margin-top: 2px;
+                margin-left: 2px;
+                font-size: xx-large;
+                background-color: rgb(241, 92, 6);
+                text-align: center;
+                               
+                } 
+                #footer{
+                    width: 100%;
+            height: 60px;
+            /* border: 1px solid black; */
+            box-sizing: border-box;
+            background-color: rgb(0, 153, 255);
+            color: WHITE;
+            font-size: xx-large;
+            text-align: center;
+            margin-top: 710px;
+            clear: both;
+                                
+                }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <marquee class="marquee">YASIR RASHEED QURESHI WEB AND AAP CCO - 118488 TEACHER SIR RIZWAN BHATTI.</marquee>
+    <div class="buttons">  
+        <button class="work" id="work1"><a href="./index.html">Class Work</a></button>
+        <button class="work" id="work2"><a href="./class10.html">Class Work</a></button>
+        <button class="work" id="work21"><a href="./class10.1.html">Class Work</a></button>
+        <button class="work" id="work31"><a href="./class11.html">Class Work</a></button>
+        <button class="work" id="work3"><a href="./class11.1.html">Class Work</a></button>
+        <br>
+        <br>
+        <button class="work" id="work4"><a href="./class11.2.html">Class Work</a></button>
+        <button class="work" id="work5"><a href="./class11.3.html">Assignment</a></button> 
+        <button class="work" id="work6"><a href="./class11.4.html">Assignment</a></button>
+        <button class="work" id="work7"><a href="./class11.5.html">Assignment</a></button> 
+        <button class="work" id="work8"><a href="./class11.6.html">Assignment</a></button>
+        <BR>
+        <BR>
+        <button class="work" id="work9"><a href="./12.1.html">Class Work</a></button>
+         </div>
+    
+    <div id="main">
+    <div id="box1">HEADER </div>
+    <div id="left"></div>
+    <div id="center">
+        <div id="top">MAIN CONTENT <br> <p class="blink">YASIR RASHEED CCO - 118488</p></div>
+        <div id="mid1">SIDE BAR</div>
+        <div id="center1">
+            <div id="twin1">TWIN</div>
+            <div id="twin2">TWIN</div>
+        </div>
+    </div>
+    <div id="footer">footer</div>
+    </div>
+    
+    
+</body>
+</html>
